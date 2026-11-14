@@ -1,0 +1,49 @@
+{
+  "order": [
+    "wenyuan",
+    "sans",
+    "glow"
+  ],
+  "fonts": [
+    {
+      "id": "wenyuan",
+      "display_zh": "文源黑体（LilyPatch）",
+      "input": "WenYuanSansSC-Regular.ttf",
+      "output": "LilyPatchWenYuanSC-Regular.ttf",
+      "family": "LilyPatch WenYuan Sans SC",
+      "postscript": "LilyPatchWenYuanSC-Regular",
+      "format": "TTF",
+      "bytes": 11071808,
+      "sha256": "dfb543cd6509ed19d6c8b129e8c1c66026f920b64a203f536b6bb1996ff38338",
+      "license": "LICENSE-WenYuan-OFL-1.1.txt"
+    },
+    {
+      "id": "sans",
+      "display_zh": "思源黑体（LilyPatch）",
+      "input": "SourceHanSansSC-Regular.ttf",
+      "output": "LilyPatchSansSC-Regular.ttf",
+      "family": "LilyPatch Sans SC",
+      "postscript": "LilyPatchSansSC-Regular",
+      "format": "TTF",
+      "bytes": 19931436,
+      "sha256": "cfb1347dc6208c5c8f971281d49e0f0c8f88d8f6aa6e427bb6e437f8e3dd8115",
+      "license": "LICENSE-OFL-1.1.txt"
+    },
+    {
+      "id": "glow",
+      "display_zh": "未来荧黑（LilyPatch）",
+      "input": "GlowSansSC-Normal-Regular.otf",
+      "output": "LilyPatchGlowSansSC-Regular.otf",
+      "family": "LilyPatch Glow Sans SC",
+      "postscript": "LilyPatchGlowSansSC-Regular",
+      "format": "OTF",
+      "bytes": 9067228,
+      "sha256": "0441d8d89d9f4e9204ca6fa51bd00177eec6907a669523879fcdd93672b33fdb",
+      "license": "LICENSE-Glow-OFL-1.1.txt",
+      "allowed_missing": [
+        "U+2500",
+        "U+266A"
+      ]
+    }
+  ]
+}

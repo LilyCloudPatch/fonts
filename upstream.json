@@ -1,0 +1,42 @@
+{
+  "order": ["wenyuan", "sans", "glow"],
+  "fonts": {
+    "wenyuan": {
+      "name": "WenYuan Sans SC",
+      "version": "1.110",
+      "file": "WenYuanSansSC-Regular.ttf",
+      "bytes": 11071676,
+      "sha256": "1135b02c88da983cb828d8b206e3fa732c794b22e0916ef7cc7e985c783ec341",
+      "project_url": "https://github.com/takushun-wu/WenYuanFonts",
+      "license": "SIL Open Font License 1.1",
+      "license_file": "LICENSE-WenYuan-OFL-1.1.txt"
+    },
+    "sans": {
+      "name": "Source Han Sans SC",
+      "version": "2.005",
+      "file": "SourceHanSansSC-Regular.ttf",
+      "bytes": 19931428,
+      "sha256": "354a0ee20d673141700e1dadf1895bfbd16da0fd89d26a42a2608b370a1b225f",
+      "project_url": "https://github.com/adobe-fonts/source-han-sans",
+      "download_url": "https://github.com/unix755/SourceHan-font-ttf",
+      "conversion": "unix755/SourceHan-font-ttf converts the official Source Han Sans SC OTF to TrueType; outlines are unchanged.",
+      "license": "SIL Open Font License 1.1",
+      "license_file": "LICENSE-OFL-1.1.txt"
+    },
+    "glow": {
+      "name": "Glow Sans SC Normal",
+      "version": "0.93",
+      "file": "GlowSansSC-Normal-Regular.otf",
+      "bytes": 9119372,
+      "sha256": "ca7d34947401b2fa6dd4fd46676d970a8cc47a40ee60c022eb7dd5068bee67ff",
+      "project_url": "https://github.com/welai/glow-sans",
+      "license": "SIL Open Font License 1.1",
+      "license_file": "LICENSE-Glow-OFL-1.1.txt",
+      "note": "Upstream repository is archived; the reserved font names are not used because the output family is renamed."
+    }
+  },
+  "license": {
+    "name": "SIL Open Font License 1.1",
+    "url": "https://openfontlicense.org/open-font-license-official-text/"
+  }
+}

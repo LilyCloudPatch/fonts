@@ -1,0 +1,8 @@
+# Upstream originals are downloaded by the build, not committed.
+/upstream/
+
+# Local previews and experiments.
+/build/
+
+__pycache__/
+*.pyc
