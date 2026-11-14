@@ -32,7 +32,7 @@ from fontTools.ttLib import TTFont
 TARGETS = [
     {
         "id": "wenyuan",
-        "display_zh": "文源黑体（LilyPatch）",
+        "display_zh": "文源黑体",
         "features_zh": "基于思源优化，笔画更均匀",
         "input": "WenYuanSansSC-Regular.ttf",
         "output": "LilyPatchWenYuanSC-Regular.ttf",
@@ -45,7 +45,7 @@ TARGETS = [
     },
     {
         "id": "sans",
-        "display_zh": "思源黑体（LilyPatch）",
+        "display_zh": "思源黑体",
         "features_zh": "标准思源黑体，字形规范",
         "input": "SourceHanSansSC-Regular.ttf",
         "output": "LilyPatchSansSC-Regular.ttf",
@@ -58,7 +58,7 @@ TARGETS = [
     },
     {
         "id": "glow",
-        "display_zh": "未来荧黑（LilyPatch）",
+        "display_zh": "未来荧黑",
         "features_zh": "更轻、更几何的现代黑体",
         "input": "GlowSansSC-Normal-Regular.otf",
         "output": "LilyPatchGlowSansSC-Regular.otf",
