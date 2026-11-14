@@ -15,7 +15,8 @@
       "format": "TTF",
       "bytes": 11071808,
       "sha256": "dfb543cd6509ed19d6c8b129e8c1c66026f920b64a203f536b6bb1996ff38338",
-      "license": "LICENSE-WenYuan-OFL-1.1.txt"
+      "license": "LICENSE-WenYuan-OFL-1.1.txt",
+      "features_zh": "基于思源优化，笔画更均匀"
     },
     {
       "id": "sans",
@@ -27,7 +28,8 @@
       "format": "TTF",
       "bytes": 19931436,
       "sha256": "cfb1347dc6208c5c8f971281d49e0f0c8f88d8f6aa6e427bb6e437f8e3dd8115",
-      "license": "LICENSE-OFL-1.1.txt"
+      "license": "LICENSE-OFL-1.1.txt",
+      "features_zh": "标准思源黑体，字形规范"
     },
     {
       "id": "glow",
@@ -43,7 +45,8 @@
       "allowed_missing": [
         "U+2500",
         "U+266A"
-      ]
+      ],
+      "features_zh": "更轻、更几何的现代黑体"
     }
   ]
 }

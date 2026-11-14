@@ -16,6 +16,8 @@
 | `fonts/LilyPatchSansSC-Regular.ttf` | `LilyPatch Sans SC` | TTF | 19.9 MB |
 | `fonts/LilyPatchGlowSansSC-Regular.otf` | `LilyPatch Glow Sans SC` | OTF | 9.1 MB |
 
+`fonts/manifest.json` 每项可含可选 `features_zh`，供启动器表格显示字体特点；缺失时表格显示“—”。
+
 三款字体**不修改任何字形轮廓、横向坐标或 advance**；构建期只归一 `hhea`/`OS/2` 的纵横度量、代码页位与字体名称，使 32px GDI 单元格下的中文宽度和基线与原版接近，同时让 `lfCharSet=134` 能选中字体。
 
 项目文本覆盖 2,595 个唯一字符；三款字体均无缺字（控制字符 tab/newline/CR 不参与检查）。未来荧黑不包含 `U+2500 ─` 与 `U+266A ♪`；`♪` 由音乐室独立音符字体绘制，`─` 已在 TH07 译文中改为中文破折号。
